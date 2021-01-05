@@ -68,7 +68,6 @@ gem 'refile', require: 'refile/rails', github: 'manfe/refile'
 gem 'refile-mini_magick'
 gem 'jquery-rails'
 gem 'pry-byebug'
-
 group :development do
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
