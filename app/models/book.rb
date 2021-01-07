@@ -7,4 +7,9 @@ class Book < ApplicationRecord
 
 	validates :title,length: { maximum: 50 }
 	belongs_to :user
+	def self.search(search)
+        return Book.all unless search
+		return Book.where(['body LIKE ?', "%#{search}%"])
+		# User.where(['name LIKE ?', "%#{search}%"])
+    end
 end
