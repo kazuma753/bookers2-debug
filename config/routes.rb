@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :videos
   root 'home#top'
   get 'home/about'
   get 'books/search'=>'books#search'
