@@ -1,4 +1,5 @@
 class VideosController < ApplicationController
+    # コントローラーのアクションに対応するviewファイルを作成するときは、ファイル名も合わせるようにしないとエラーが出る。
     def new
         @video = Video.new
     end
