@@ -21,4 +21,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* 動画投稿機能の参考サイト
+https://qiita.com/HashibamiAkira/items/3046a0fc91ded48ccc5f
