@@ -23,3 +23,6 @@ Things you may want to cover:
 
 * 動画投稿機能の参考サイト
 https://qiita.com/HashibamiAkira/items/3046a0fc91ded48ccc5f
+
+* urlの直打ち防止について
+https://qiita.com/ryuuuuuuuuuu/items/73cf2708b31c4cb901ec

@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-  before_action :ensure_correct_user, only: [:update]
+  # urlの直打ち防止処置
+  before_action :ensure_correct_user, only: [:update, :show, :edit]
 
   def show
     @user = User.find(params[:id])
@@ -33,7 +34,8 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :introduction, :profile_image)
   end
-
+  
+  # urlの直打ち防止処置
   def ensure_correct_user
     @user = User.find(params[:id])
     unless @user == current_user
